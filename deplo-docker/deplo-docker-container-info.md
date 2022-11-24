@@ -1,4 +1,4 @@
-## file to keep track of the docker runs of the same image: captest-pipreq2
+## file to keep track of the docker runs
 
 the branch 'container' has all the files for the initial docker containerization of the model apps.  it got so far as to work with the all-in-prediction that directly takes an input through the call, but not a user input.
 

@@ -8,13 +8,13 @@ the default analysis is done with multi-labels (including 5 types of network att
 
 - there is a set (ending in _bin) that has binary labels (attack, no attack).  using this sub dataset you can see that the data is linearly sepparable, accuracy of 1, f1 of 1.
 
-# create reduced dataset without columns that provide no information.
+## create reduced dataset without columns that provide no information.
 
-# dropping also switch  id and port id
+### dropping also switch  id and port id
 
 
 
-* created new reduced data with labels 'red_new'
+## created new reduced data with labels 'red_new'
 ,,,
 red_new_df = raw_df[[#'Switch ID', # this is no general info but data from setup used to model data
                         #'Port Number', # this is no general info but data from setup used to model data
