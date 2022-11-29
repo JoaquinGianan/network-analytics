@@ -15,6 +15,7 @@ But these threats are difficult to detect unaided: they display network traffic 
 -We also plan to test a DL-based (CNN) solution to see if we get better results [define results].
 
 -This NID will:
+
     --let network administrators take corrective action to cancel these threats.
     --let network designers develop responses based on information from the NID.
 
