@@ -1,24 +1,26 @@
-# network-analytics
 
-## main
- - data lineage in markdown
-## data directory contains:
-- raw 
-    - with data from unr idd in several formats
-- processed
-    -  csv versions of dataframes.
-    - red_new is the common denominator
-    - df with all columns, features
-    - files with bin (binary) labels were used to test classification models for the two-step process (binary labels are liniarly separable by ML classification models).  this two step process is not shown in deployment
- ## notebooks directory:
- - jupiter notebook with 'clean' version of prior notebooks, has yet to include some eda done by RB
- ## deplo-docker directory:
- - main.py
- - model.py
- - src folder
- - dockerfile
- - requirements file
- - and all files (models and test data for sampling) needed for running model and tests localy with uvicorn and in a Docker container
- 
-      
 
+For this Capstone project we are using data fron the University of Nevada.
+
+Specifically, their Reno Intrusion Detection Dataset (UNR-IDD).
+
+The main difference between UNR-IDD and other existing datasets is that UNR-IDD consists primarily of network port statistics.
+
+These refer to the observed port metrics recorded in switch/router ports within a networking environment.
+
+The dataset also includes delta port statistics which indicates the change in magnitude of observed port statistics within a time interval.
+
+Compared to datasets that primarily use flow level statistics, these port statistics can provide a fine-grained analysis of network flows from the port level as decisions are made at the port level versus the flow level.
+
+This can lead to rapid identification of potential intrusions.
+
+UNR-IDD also address the limitation of the presence of tail classes.
+
+The dataset ensures that there are enough samples for ML classifiers to achieve high F-Measure scores, uniquely.
+
+Our proposed dataset also ensures that there are no missing network metrics and that all data samples are filled.
+
+* Renato Barroco
+* Joaquin Gianantonio
+
+[UNR-IDD-Dataset](https://www.tapadhirdas.com/unr-idd-dataset)
