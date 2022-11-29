@@ -19,13 +19,9 @@ the default analysis is done with multi-labels (including 5 types of network att
 red_new_df = raw_df[[#'Switch ID', # this is no general info but data from setup used to model data
 
                         #'Port Number', # this is no general info but data from setup used to model data
-
                         'Received Packets', 
-
                         'Received Bytes', 
-
                         'Sent Bytes', 
-                        
                         'Sent Packets', 
                         'Port alive Duration (S)',
                         #'Packets Rx Dropped', #empty feature
