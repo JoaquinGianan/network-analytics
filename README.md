@@ -1,4 +1,30 @@
+## Definition of the Problem
 
+Network infrastructures are at risk from cyber-attacks and intrusions. 
+
+This is an increasing concern as we continue to expand the applications of modern-day networking: i.e., Internet Of Things, smart homes, etc.
+
+Cyber-attacks and intrusions can compromise their availability, confidentiality, and integrity. 
+
+But these threats are difficult to detect unaided: they display network traffic patterns almost indistinguishable from normal traffic. 
+
+## Our Proposed Solution
+
+-We propose developing a ML-based Network Intrusion Detection (NID) system that can provide rapid identification of potential intrusions.  
+
+-We also plan to test a DL-based (CNN) solution to see if we get better results [define results].
+
+-This NID will:
+    --let network administrators take corrective action to cancel these threats.
+    --let network designers develop responses based on information from the NID.
+
+-The NID will help reduce interruption of service and avoid or reduce interrupting critical tasks and its associated cost for the user and provider.
+
+-The NID will have to monitor network flow (at port level), and robustly identify threats.
+
+
+
+## Dataset
 
 For this Capstone project we are using data fron the University of Nevada.
 
